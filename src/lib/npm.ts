@@ -12,11 +12,6 @@ import { InstalledPackage, OutdatedPackage } from "./types";
 const execFileAsync = promisify(execFile);
 const MAX_BUFFER = 20 * 1024 * 1024;
 
-interface Preferences {
-  customNpmPath?: string;
-  closeAfterAction?: boolean;
-}
-
 interface NpmListPackage {
   version?: string;
   description?: string;

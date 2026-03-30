@@ -6,12 +6,8 @@ import { RegistryPackageDetail } from "./components/package-detail";
 import { getInstalledPackages } from "./lib/npm";
 import { searchRegistryPackages } from "./lib/registry";
 
-interface SearchPreferences {
-  showMetadataPanel?: boolean;
-}
-
 export default function SearchCommand() {
-  const { showMetadataPanel } = getPreferenceValues<SearchPreferences>();
+  const { showMetadataPanel } = getPreferenceValues<Preferences.Search>();
   const [searchText, setSearchText] = useState("");
   const deferredSearchText = useDeferredValue(searchText.trim());
 
