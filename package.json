@@ -2,8 +2,18 @@
   "$schema": "https://www.raycast.com/schemas/extension.json",
   "name": "npm",
   "title": "npm",
-  "description": "Browse and manage your globally installed npm packages",
-  "author": "thomas",
+  "description": "Browse, search, upgrade, and remove global npm packages",
+  "author": "acxtrila",
+  "categories": [
+    "Developer Tools"
+  ],
+  "keywords": [
+    "npm",
+    "node",
+    "packages",
+    "registry",
+    "cli"
+  ],
   "license": "MIT",
   "icon": "icon.png",
   "commands": [
