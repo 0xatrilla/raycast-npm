@@ -1,8 +1,8 @@
 {
   "$schema": "https://www.raycast.com/schemas/extension.json",
-  "name": "npm",
-  "title": "npm",
-  "description": "Browse, search, upgrade, and remove global npm packages",
+  "name": "global-npm-manager",
+  "title": "Global npm Manager",
+  "description": "Manage global npm packages from Raycast",
   "author": "acxtrila",
   "categories": [
     "Developer Tools"

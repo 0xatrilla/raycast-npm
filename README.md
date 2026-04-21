@@ -1,6 +1,6 @@
-# npm for Raycast
+# Global npm Manager for Raycast
 
-Manage globally installed npm packages from Raycast.
+Manage global npm packages from Raycast.
 
 ## Commands
 
@@ -8,7 +8,7 @@ Manage globally installed npm packages from Raycast.
 - `Show Outdated`: see only packages with updates available and update one or all of them.
 - `Upgrade`: shortcut view for upgrading outdated global packages.
 - `Search`: search the npm registry and install packages globally.
-- `Clean Up`: verify the npm cache or clear it entirely.
+- `Clean up`: verify the npm cache or clear it entirely.
 
 ## Notes
 
